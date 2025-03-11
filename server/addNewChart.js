@@ -53,11 +53,11 @@ const addNewChart = (opcoes, pontos, title, type) => {
   let width;
   let visibility = false;
   if (type === 'bar') {
-    backgroundColors = ['rgba(150, 190, 41)'],
+    backgroundColors = ['rgba(156, 220, 1)'],
       color = '#393F49',
       width = 1
   } else {
-    backgroundColors = ['#96BE29', '#20AD81', '#2A3F40', '#B4B4B4'],
+    backgroundColors = ['#9CDC01', '#20AD81', '#2A3F40', '#B4B4B4'],
       visibility = true
   }
 
@@ -173,11 +173,11 @@ const updateChart = (pageId) => {
   let width;
   let visibility = false;
   if (type === 'bar') {
-    backgroundColors = ['rgba(150, 190, 41)'],
+    backgroundColors = ['rgba(156, 220, 1)'],
     color = '#393F49',
     width = 1;
   } else {
-    backgroundColors = ['#96BE29', '#20AD81', '#2A3F40', '#B4B4B4'];
+    backgroundColors = ['#9CDC01', '#20AD81', '#2A3F40', '#B4B4B4'];
     visibility = true;
   }
 

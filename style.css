@@ -284,6 +284,18 @@ ul li {
   color: white;
 }
 
+.home-subtitle {
+  position: absolute;
+  z-index: 1;
+  font-size: 32px;
+  max-width: 1000px;
+  text-align: center;
+  margin-top: 570px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
 .backgroundHome {
   background: url(/capa.jpg) no-repeat center;
   background-size: 100%;
@@ -447,11 +459,11 @@ ul li {
 
 .tableHead {
   border-top: 3px solid #000000;
-  background-color: #e6e6e6;
+  background-color: #A8CE91;
 }
 
 .totalRow {
-  background-color: #e6e6e6;
+  background-color: #A8CE91;
 }
 
 .tableHead th {
