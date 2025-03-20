@@ -334,7 +334,7 @@ ul li {
   width: 29.7cm;
   height: 21cm;
   position: relative;
-  background: url(/a4-horizontal.jpg) no-repeat center;
+  background: url(/anova-background.svg) no-repeat center;
   background-size: 100%;
   z-index: 0;
   margin-bottom: 2px solid;
@@ -383,7 +383,7 @@ ul li {
   height: auto;
   overflow-y: auto;
   resize: none;
-  margin-left: 150px;
+  margin-left: 40px;
 }
 
 .multiline-input-no-margin {

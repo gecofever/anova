@@ -46,6 +46,10 @@ const addNewChart = (opcoes, pontos, title, type) => {
     color: '#000',
     anchor: 'end',
     align: 'end',
+    font: {
+      weight: 'bold',
+      size: 14
+    }
   };
 
   let backgroundColors;
@@ -107,6 +111,10 @@ const addNewChart = (opcoes, pontos, title, type) => {
           display: visibility,
           labels: {
             position: 'top',
+            font: {
+              weight: 'bold',
+              size: 14
+            }
           }
         }
       },
@@ -164,6 +172,10 @@ const updateChart = (pageId) => {
     color: '#000',
     anchor: 'end',
     align: 'end',
+    font: {
+      weight: 'bold',
+      size: 14
+    }
   };
 
   const ticksDisplay = type === 'bar' ? true : false
