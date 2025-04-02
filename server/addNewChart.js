@@ -124,7 +124,11 @@ const addNewChart = (opcoes, pontos, title, type) => {
             display: false
           },
           ticks: {
-            display: true
+            display: true,
+            color: '#000',
+            font: {
+              weight: 'bold'
+            }
           },
         },
         x: {
@@ -178,7 +182,7 @@ const updateChart = (pageId) => {
     }
   };
 
-  const ticksDisplay = type === 'bar' ? true : false
+  const ticksDisplay = type === 'bar'
 
   let backgroundColors;
   let color;
