@@ -18,7 +18,7 @@ export function addSecondTable(data, subheader, tableTitle, valuesArray, isSecon
 
     const firstRow = document.createElement('tr');
 
-    const hasUrbana = subheader.includes('Urbana');
+    const hasUrbana = subheader.includes('Urbana') || subheader.includes('Urbano');
     const hasRural = subheader.includes('Rural');
 
     const zoneColspan = (hasUrbana ? 1 : 0) + (hasRural ? 1 : 0);
